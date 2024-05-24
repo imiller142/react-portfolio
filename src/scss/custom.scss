@@ -1,5 +1,5 @@
 ﻿// Custom import here
-
+// color pallete? primary #dce0d9, secondary #31081f, tertiary #6b0f1a, quad #595959, quint #808f85 
 
 .html, .body {
     height: 100vh;
@@ -20,10 +20,11 @@
 }
 
 $theme-colors: (
-    "primary": #394053,
-    "secondary": #f6e27f,
-    "tertiary": #e2c391,
-    "quad": #a8b7ab
+    "primary": #dce0d9,
+    "secondary":#31081f,
+    "tertiary": #6b0f1a,
+    "quad": #595959,
+    "quint": #808f85
 );
 //default imports
 @import "~bootstrap/scss/bootstrap.scss";
