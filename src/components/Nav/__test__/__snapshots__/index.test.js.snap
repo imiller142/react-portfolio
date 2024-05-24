@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="bg-secondary py-4 bg-img navbar navbar-expand-lg navbar-light"
+  >
+    <div
+      class="w-25 container"
+    >
+      <span
+        class="text-secondary navbar-brand"
+      >
+         Ian Miller's Portfolio
+      </span>
+    </div>
+    <div
+      class="justify-content-between container"
+    >
+      <div
+        class="justify-content-between w-100 navbar-nav"
+      >
+        <div
+          class="nav-item"
+        >
+          <a
+            class="text-quad nav-link"
+            data-rr-ui-event-key="#"
+            data-testid="test"
+            href="#"
+            name="test"
+            role="button"
+            tabindex="0"
+          >
+            test
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

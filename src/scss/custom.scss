@@ -1,7 +1,29 @@
-﻿
+﻿// Custom import here
+
+
+.html, .body {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+#root {
+    height: 100vh;
+}
+
+
+.bg-img {
+    background-image: url("../assets/images/wood2.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+
+        
+}
 
 $theme-colors: (
-    "primary": #383f52,
-    "secondary": #f6e27f
+    "primary": #394053,
+    "secondary": #f6e27f,
+    "tertiary": #e2c391,
+    "quad": #a8b7ab
 );
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+//default imports
+@import "~bootstrap/scss/bootstrap.scss";
